@@ -50,9 +50,10 @@ This project is a CNC Voice-Controlled Drill Machine designed as a final-year en
    ```bash
    pip install pyserial SpeechRecognition
    ```
-3. Upload the Arduino code to the Arduino Uno using the Arduino IDE.
-   Run the C++ file in the arduino IDE envirnoment
+3. Upload the C++ Arduino code to the Arduino Uno using the Arduino IDE. Run the C++ file in the arduino IDE envirnoment.
+   ```bash
    VoiceCNC.cpp
+   ```
 ## Usage
 1. Power on the CNC machine.
 2. Run the Python voice recognition script:
